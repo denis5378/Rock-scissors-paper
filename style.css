@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ccc;
+    height: 100vh;
+}
+
+.score {
+    background-color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card {
+    text-align: center;
+    padding: .7em;
+    border-radius: 10px;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.card-pic {
+    width: 10em;
+    height: 10em;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.table {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-control {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result {
+    margin-top: 30px;
+    text-align: center;
+
+    font-size: 3em;
+    color: rgb(85, 17, 17);
+}
+
+.reload {
+    margin: 0 auto;
+    font-size: 1em;
+    display: none;
+    padding: 1em;
+}
+
+
+
+
+
+

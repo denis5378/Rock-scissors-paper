@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="score">
+            <p class="score-player">Побед игрока: </p>
+            <p class="score-computer">Побед компьютера: </p>
+            <p class="movesleft">Осталось ходов: </p>
+        </div>
+        <div class="table">
+            <div class="card enemy">
+                <img src="Source/question.png" alt="" id="computer-pic" class="card-pic">
+                <p class="card-text">Карточка противника</p>
+            </div>
+        </div>
+        <div class="table">
+            <div class="card rock">
+                <img src="Source/stone.png" alt="" class="card-pic">
+                <p class="card-text">Камень</p>
+            </div>
+            <div class="card scissors">
+                <img src="Source/scissors.png" alt="" class="card-pic">
+                <p class="card-text">Ножницы</p>
+            </div>
+            <div class="card paper">
+                <img src="Source/paper.png" alt="" class="card-pic">
+                <p class="card-text">Бумага</p>
+            </div>
+        </div>
+        <div class="table-control">
+            <div class="result"></div>
+            <button class="reload">Начать заново</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
